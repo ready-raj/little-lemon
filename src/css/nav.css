@@ -1,0 +1,31 @@
+.nav{background-color:#EDEFEE;
+    font-family: "Markazi Text", serif;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    align-items: justify;
+    
+    }
+  
+
+    
+.nav img{
+    grid-column-start:2;
+    grid-column-end: 4;
+}
+.nav ul{
+   
+    grid-column-start: 4;
+    grid-column-end: 13;
+    justify-self: left;
+    display:flex;
+    list-style: none;
+}
+.nav ul li  a{
+color: black;
+font-size: 18px;
+
+    text-decoration: none;
+padding:1.5rem;
+
+}

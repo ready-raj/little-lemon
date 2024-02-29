@@ -1,14 +1,13 @@
 import './App.css';
 import Nav from './nav';
-import Header from './header'
-import Footer from './footer';
+import Header from './hero';
 function App() {
   return (
     <>
+    <div className="maingrid">
     <Nav/>
     <Header/>
-     <p> Our New Little Lemon web starts</p>
-     <Footer/>
+     </div>
      </>
     );
     }
