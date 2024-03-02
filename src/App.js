@@ -6,7 +6,7 @@ function App() {
     <>
     <div className="maingrid">
     <Nav/>
-    <Header/>
+     <Header/>
      </div>
      </>
     );

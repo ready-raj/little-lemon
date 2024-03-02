@@ -3,7 +3,8 @@ background-color:#495E57;
 font-family: "Markazi Text", serif;
 grid-column-start: 1;
  grid-column-end: 13;
- display: grid;
+ display: grid; 
+ grid-template-columns: repeat(12,1fr);
  grid-template-rows: repeat(5,100px);
 }
 h1{
